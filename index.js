@@ -2,6 +2,7 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 var _ = require('lodash');
+
 var template = _.template;
 
 function compile(options, data, render) {
